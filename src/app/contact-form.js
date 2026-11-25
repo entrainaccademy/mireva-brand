@@ -12,7 +12,7 @@ export default function ContactForm() {
     <label htmlFor="contact-name">Name</label><input id="contact-name" name="name" type="text" placeholder="Your name" autoComplete="name" required />
     <label htmlFor="contact-email">Email</label><input id="contact-email" name="email" type="email" placeholder="Your email address" autoComplete="email" required />
     <label htmlFor="contact-message">Message</label><textarea id="contact-message" name="message" placeholder="Tell us a little about what you have in mind..." rows="5" required />
-    <button className="button button-primary" type="submit">Send Message <span aria-hidden="true">↗</span></button>
+    <button className="button button-primary" type="submit">Send Message</button>
     {status && <p className="form-status" role="status">{status}</p>}
   </form>;
 }
