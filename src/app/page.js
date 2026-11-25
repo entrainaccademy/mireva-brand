@@ -19,7 +19,7 @@ function Brand() {
 }
 
 function ArrowLink({ href, children }) {
-  return <a className="arrow-link" href={href}>{children}<span aria-hidden="true">↗</span></a>;
+  return <a className="arrow-link" href={href}>{children}</a>;
 }
 
 function HeroIcon({ kind }) {
